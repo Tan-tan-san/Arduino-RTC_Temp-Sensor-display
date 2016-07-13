@@ -10,8 +10,8 @@
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS,  TFT_DC, TFT_RST);
 
 // Option 2: use any pins but a little slower!
-#define TFT_SCLK 13   // set these to be whatever pins you like!
-#define TFT_MOSI 11   // set these to be whatever pins you like!
+#define TFT_SCLK 13 
+#define TFT_MOSI 11
 
 float maxTemperature=0;
 float minTemperature=200;
